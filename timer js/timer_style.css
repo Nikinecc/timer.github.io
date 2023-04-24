@@ -1,0 +1,84 @@
+body{
+    margin: 0px 0px;
+}
+.timer{
+    width: fit-content;
+    margin: 0 auto;
+    background: #001d53;
+    padding: 40px 90px;
+    text-align: center;
+    border-radius: 50px 0px 50px 0px;
+    margin-bottom: 30px;
+}
+.timer-title{
+    margin-bottom: 30px;
+}
+.timer-title h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.number-holder{
+    display: flex;
+}
+.timer-holder{
+    display: flex;
+    justify-content: center;
+    font-family: 'Comfortaa';
+}
+.d,.h,.m,.s{
+    margin-right: 25px;
+    font-size: 30px;
+    color: rgb(217, 217, 217);
+    margin-bottom: 30px;
+}
+.h-number{
+    text-align: center;
+}
+.timer-subtitle{
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+@media(max-width:900px){
+    .timer-title h1{
+        font-size: 24px;
+    }
+    .d,.h,.m,.s{
+        margin-right: 25px;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .timer-subtitle {
+        font-size: 14px;
+    }
+}
+@media(max-width:675px){
+    .timer{
+        padding: 20px 45px;
+    }
+    .timer-title h1{
+        font-size: 20px;
+    }
+    .d,.h,.m,.s{
+        font-size: 14px;
+    }
+    .timer-subtitle {
+        font-size: 10px;
+    }
+}
+@media(max-width:445px){
+    .timer{
+        padding: 10px 23px;
+    }
+    .timer-title h1{
+        font-size: 14px;
+    }
+    .d,.h,.m,.s{
+        margin-right: 25px;
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    .timer-subtitle {
+        font-size: 10px;
+    }
+}
